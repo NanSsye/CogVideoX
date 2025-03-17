@@ -1,0 +1,14 @@
+[CogVideoX]
+enable = true
+api_key = ""
+model = "cogvideox-2"
+generate_commands = ["#生成视频"]
+image_generate_commands = ["#图生视频"]
+query_commands = ["#查询视频"]
+exit_commands = ["#结束对话", "#退出对话"]
+enable_points = true
+generate_cost = 0
+save_path = "temp"
+default_size = "960x1280"  # 默认分辨率
+default_ratio = "9:16"      # 默认比例
+admins = ["wxid_admin1", "wxid_admin2"]
